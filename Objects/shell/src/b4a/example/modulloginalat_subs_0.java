@@ -8,7 +8,7 @@ public class modulloginalat_subs_0 {
 
 public static RemoteObject  _activity_create(RemoteObject _firsttime) throws Exception{
 try {
-		Debug.PushSubsStack("Activity_Create (modulloginalat) ","modulloginalat",3,modulloginalat.mostCurrent.activityBA,modulloginalat.mostCurrent,22);
+		Debug.PushSubsStack("Activity_Create (modulloginalat) ","modulloginalat",6,modulloginalat.mostCurrent.activityBA,modulloginalat.mostCurrent,22);
 if (RapidSub.canDelegate("activity_create")) { return b4a.example.modulloginalat.remoteMe.runUserSub(false, "modulloginalat","activity_create", _firsttime);}
 Debug.locals.put("FirstTime", _firsttime);
  BA.debugLineNum = 22;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
@@ -31,7 +31,7 @@ finally {
 		}}
 public static RemoteObject  _activity_pause(RemoteObject _userclosed) throws Exception{
 try {
-		Debug.PushSubsStack("Activity_Pause (modulloginalat) ","modulloginalat",3,modulloginalat.mostCurrent.activityBA,modulloginalat.mostCurrent,34);
+		Debug.PushSubsStack("Activity_Pause (modulloginalat) ","modulloginalat",6,modulloginalat.mostCurrent.activityBA,modulloginalat.mostCurrent,34);
 if (RapidSub.canDelegate("activity_pause")) { return b4a.example.modulloginalat.remoteMe.runUserSub(false, "modulloginalat","activity_pause", _userclosed);}
 Debug.locals.put("UserClosed", _userclosed);
  BA.debugLineNum = 34;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
@@ -48,7 +48,7 @@ finally {
 		}}
 public static RemoteObject  _activity_resume() throws Exception{
 try {
-		Debug.PushSubsStack("Activity_Resume (modulloginalat) ","modulloginalat",3,modulloginalat.mostCurrent.activityBA,modulloginalat.mostCurrent,30);
+		Debug.PushSubsStack("Activity_Resume (modulloginalat) ","modulloginalat",6,modulloginalat.mostCurrent.activityBA,modulloginalat.mostCurrent,30);
 if (RapidSub.canDelegate("activity_resume")) { return b4a.example.modulloginalat.remoteMe.runUserSub(false, "modulloginalat","activity_resume");}
  BA.debugLineNum = 30;BA.debugLine="Sub Activity_Resume";
 Debug.ShouldStop(536870912);
@@ -64,7 +64,7 @@ finally {
 		}}
 public static RemoteObject  _btnmasuk_click() throws Exception{
 try {
-		Debug.PushSubsStack("btnMasuk_Click (modulloginalat) ","modulloginalat",3,modulloginalat.mostCurrent.activityBA,modulloginalat.mostCurrent,38);
+		Debug.PushSubsStack("btnMasuk_Click (modulloginalat) ","modulloginalat",6,modulloginalat.mostCurrent.activityBA,modulloginalat.mostCurrent,38);
 if (RapidSub.canDelegate("btnmasuk_click")) { return b4a.example.modulloginalat.remoteMe.runUserSub(false, "modulloginalat","btnmasuk_click");}
  BA.debugLineNum = 38;BA.debugLine="Private Sub btnMasuk_Click";
 Debug.ShouldStop(32);

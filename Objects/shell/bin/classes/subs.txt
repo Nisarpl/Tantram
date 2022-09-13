@@ -2,9 +2,9 @@ b4a.example
 0
 0
 0
-main,activity_create,1,1,28,30
-,btnadmin,,btnalat
-,btnadmin,,btnalat
+main,activity_create,1,0,28,30
+
+
 
 main,activity_pause,0,0,36,38
 
@@ -26,59 +26,95 @@ main,btngambar_click,0,0,50,53
 
 
 
-main,globals,0,1,22,26
+main,globals,0,1,21,25
 
 
 
-main,process_globals,0,1,16,20
+main,process_globals,0,1,15,19
 
 
 
-starter,application_error,0,0,27,29
+modulloginadmin,activity_create,1,0,20,24
+,edtpassword,,edtusername
+,edtpassword,,edtusername
+
+modulloginadmin,activity_pause,0,0,30,32
 
 
 
-starter,process_globals,0,1,6,10
+modulloginadmin,activity_resume,0,0,26,28
 
 
 
-starter,service_create,0,0,12,16
+modulloginadmin,btnlogin_click,0,0,35,38
 
 
 
-starter,service_destroy,0,0,31,33
+modulloginadmin,globals,0,1,12,18
 
 
 
-starter,service_start,0,0,18,20
+modulloginadmin,process_globals,0,1,6,10
 
 
 
-starter,service_taskremoved,0,0,22,24
+moduldashboard,activity_create,1,0,18,21
 
 
 
-modulhomepage,activity_create,1,0,18,22
-modulkoneksi,mhandler
-
-modulkoneksi,koneksi
-modulhomepage,activity_pause,0,0,28,30
+moduldashboard,activity_pause,0,0,27,29
 
 
 
-modulhomepage,activity_resume,0,0,24,26
+moduldashboard,activity_resume,0,0,23,25
 
 
 
-modulhomepage,btnadmin_click,0,0,32,35
+moduldashboard,globals,0,1,12,16
 
 
 
-modulhomepage,globals,0,1,12,16
+moduldashboard,process_globals,0,1,6,10
 
 
 
-modulhomepage,process_globals,0,1,6,10
+moduldataalat,activity_create,0,0,18,22
+
+
+
+moduldataalat,activity_pause,0,0,28,30
+
+
+
+moduldataalat,activity_resume,0,0,24,26
+
+
+
+moduldataalat,globals,0,1,12,16
+
+
+
+moduldataalat,process_globals,0,1,6,10
+
+
+
+modultambahalat,activity_create,0,0,18,22
+
+
+
+modultambahalat,activity_pause,0,0,28,30
+
+
+
+modultambahalat,activity_resume,0,0,24,26
+
+
+
+modultambahalat,globals,0,1,12,16
+
+
+
+modultambahalat,process_globals,0,1,6,10
 
 
 
@@ -114,26 +150,6 @@ modulloginalat,process_globals,0,1,6,10
 
 
 
-modulgambar,activity_create,0,0,18,22
-
-
-
-modulgambar,activity_pause,0,0,28,30
-
-
-
-modulgambar,activity_resume,0,0,24,26
-
-
-
-modulgambar,globals,0,1,12,16
-
-
-
-modulgambar,process_globals,0,1,6,10
-
-
-
 modulalat01,activity_create,1,0,19,27
 ,scrollview1
 ,scrollview1
@@ -154,47 +170,47 @@ modulalat01,process_globals,0,1,6,10
 
 
 
-modulloginadmin,activity_create,1,0,21,25
-,edtpassword,,edtusername
-,edtpassword,,edtusername
-
-modulloginadmin,activity_pause,0,0,31,33
+modulgambar,activity_create,0,0,18,22
 
 
 
-modulloginadmin,activity_resume,0,0,27,29
+modulgambar,activity_pause,0,0,28,30
 
 
 
-modulloginadmin,btnlogin_click,0,0,36,39
+modulgambar,activity_resume,0,0,24,26
 
 
 
-modulloginadmin,globals,0,1,12,19
+modulgambar,globals,0,1,12,16
 
 
 
-modulloginadmin,process_globals,0,1,6,10
+modulgambar,process_globals,0,1,6,10
 
 
 
-moduldashboard,activity_create,1,1,18,22
+starter,application_error,0,0,27,29
 
 
 
-moduldashboard,activity_pause,0,0,28,30
+starter,process_globals,0,1,6,10
 
 
 
-moduldashboard,activity_resume,0,0,24,26
+starter,service_create,0,0,12,16
 
 
 
-moduldashboard,globals,0,1,12,16
+starter,service_destroy,0,0,31,33
 
 
 
-moduldashboard,process_globals,0,1,6,10
+starter,service_start,0,0,18,20
+
+
+
+starter,service_taskremoved,0,0,22,24
 
 
 

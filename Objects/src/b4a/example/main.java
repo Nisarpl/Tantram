@@ -351,12 +351,13 @@ public static void initializeProcessGlobals() {
 public static boolean isAnyActivityVisible() {
     boolean vis = false;
 vis = vis | (main.mostCurrent != null);
-vis = vis | (modulhomepage.mostCurrent != null);
-vis = vis | (modulloginalat.mostCurrent != null);
-vis = vis | (modulgambar.mostCurrent != null);
-vis = vis | (modulalat01.mostCurrent != null);
 vis = vis | (modulloginadmin.mostCurrent != null);
 vis = vis | (moduldashboard.mostCurrent != null);
+vis = vis | (moduldataalat.mostCurrent != null);
+vis = vis | (modultambahalat.mostCurrent != null);
+vis = vis | (modulloginalat.mostCurrent != null);
+vis = vis | (modulalat01.mostCurrent != null);
+vis = vis | (modulgambar.mostCurrent != null);
 return vis;}
 
 private static BA killProgramHelper(BA ba) {
@@ -375,55 +376,6 @@ public static void killProgram() {
 			}
             else {
                 BA ba = killProgramHelper(main.mostCurrent == null ? null : main.mostCurrent.processBA);
-                if (ba != null) __a = ba.activity;
-            }
-            if (__a != null)
-				__a.finish();}
-
-BA.applicationContext.stopService(new android.content.Intent(BA.applicationContext, starter.class));
- {
-            Activity __a = null;
-            if (modulhomepage.previousOne != null) {
-				__a = modulhomepage.previousOne.get();
-			}
-            else {
-                BA ba = killProgramHelper(modulhomepage.mostCurrent == null ? null : modulhomepage.mostCurrent.processBA);
-                if (ba != null) __a = ba.activity;
-            }
-            if (__a != null)
-				__a.finish();}
-
- {
-            Activity __a = null;
-            if (modulloginalat.previousOne != null) {
-				__a = modulloginalat.previousOne.get();
-			}
-            else {
-                BA ba = killProgramHelper(modulloginalat.mostCurrent == null ? null : modulloginalat.mostCurrent.processBA);
-                if (ba != null) __a = ba.activity;
-            }
-            if (__a != null)
-				__a.finish();}
-
- {
-            Activity __a = null;
-            if (modulgambar.previousOne != null) {
-				__a = modulgambar.previousOne.get();
-			}
-            else {
-                BA ba = killProgramHelper(modulgambar.mostCurrent == null ? null : modulgambar.mostCurrent.processBA);
-                if (ba != null) __a = ba.activity;
-            }
-            if (__a != null)
-				__a.finish();}
-
- {
-            Activity __a = null;
-            if (modulalat01.previousOne != null) {
-				__a = modulalat01.previousOne.get();
-			}
-            else {
-                BA ba = killProgramHelper(modulalat01.mostCurrent == null ? null : modulalat01.mostCurrent.processBA);
                 if (ba != null) __a = ba.activity;
             }
             if (__a != null)
@@ -453,19 +405,79 @@ BA.applicationContext.stopService(new android.content.Intent(BA.applicationConte
             if (__a != null)
 				__a.finish();}
 
+ {
+            Activity __a = null;
+            if (moduldataalat.previousOne != null) {
+				__a = moduldataalat.previousOne.get();
+			}
+            else {
+                BA ba = killProgramHelper(moduldataalat.mostCurrent == null ? null : moduldataalat.mostCurrent.processBA);
+                if (ba != null) __a = ba.activity;
+            }
+            if (__a != null)
+				__a.finish();}
+
+ {
+            Activity __a = null;
+            if (modultambahalat.previousOne != null) {
+				__a = modultambahalat.previousOne.get();
+			}
+            else {
+                BA ba = killProgramHelper(modultambahalat.mostCurrent == null ? null : modultambahalat.mostCurrent.processBA);
+                if (ba != null) __a = ba.activity;
+            }
+            if (__a != null)
+				__a.finish();}
+
+ {
+            Activity __a = null;
+            if (modulloginalat.previousOne != null) {
+				__a = modulloginalat.previousOne.get();
+			}
+            else {
+                BA ba = killProgramHelper(modulloginalat.mostCurrent == null ? null : modulloginalat.mostCurrent.processBA);
+                if (ba != null) __a = ba.activity;
+            }
+            if (__a != null)
+				__a.finish();}
+
+ {
+            Activity __a = null;
+            if (modulalat01.previousOne != null) {
+				__a = modulalat01.previousOne.get();
+			}
+            else {
+                BA ba = killProgramHelper(modulalat01.mostCurrent == null ? null : modulalat01.mostCurrent.processBA);
+                if (ba != null) __a = ba.activity;
+            }
+            if (__a != null)
+				__a.finish();}
+
+ {
+            Activity __a = null;
+            if (modulgambar.previousOne != null) {
+				__a = modulgambar.previousOne.get();
+			}
+            else {
+                BA ba = killProgramHelper(modulgambar.mostCurrent == null ? null : modulgambar.mostCurrent.processBA);
+                if (ba != null) __a = ba.activity;
+            }
+            if (__a != null)
+				__a.finish();}
+
+BA.applicationContext.stopService(new android.content.Intent(BA.applicationContext, starter.class));
 }
 public anywheresoftware.b4a.keywords.Common __c = null;
 public static anywheresoftware.b4a.objects.B4XViewWrapper.XUI _xui = null;
-public anywheresoftware.b4a.objects.ButtonWrapper _btnalat = null;
-public anywheresoftware.b4a.objects.ButtonWrapper _btnadmin = null;
-public b4a.example.starter _starter = null;
-public b4a.example.modulhomepage _modulhomepage = null;
-public b4a.example.modulloginalat _modulloginalat = null;
-public b4a.example.modulgambar _modulgambar = null;
-public b4a.example.modulalat01 _modulalat01 = null;
 public b4a.example.modulloginadmin _modulloginadmin = null;
-public b4a.example.modulkoneksi _modulkoneksi = null;
 public b4a.example.moduldashboard _moduldashboard = null;
+public b4a.example.moduldataalat _moduldataalat = null;
+public b4a.example.modultambahalat _modultambahalat = null;
+public b4a.example.modulkoneksi _modulkoneksi = null;
+public b4a.example.modulloginalat _modulloginalat = null;
+public b4a.example.modulalat01 _modulalat01 = null;
+public b4a.example.modulgambar _modulgambar = null;
+public b4a.example.starter _starter = null;
 public static String  _activity_create(boolean _firsttime) throws Exception{
 RDebugUtils.currentModule="main";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))

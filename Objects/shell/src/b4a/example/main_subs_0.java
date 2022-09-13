@@ -126,12 +126,8 @@ finally {
 			Debug.PopSubsStack();
 		}}
 public static RemoteObject  _globals() throws Exception{
- //BA.debugLineNum = 22;BA.debugLine="Sub Globals";
- //BA.debugLineNum = 24;BA.debugLine="Private btnAlat As Button";
-main.mostCurrent._btnalat = RemoteObject.createNew ("anywheresoftware.b4a.objects.ButtonWrapper");
- //BA.debugLineNum = 25;BA.debugLine="Private btnAdmin As Button";
-main.mostCurrent._btnadmin = RemoteObject.createNew ("anywheresoftware.b4a.objects.ButtonWrapper");
- //BA.debugLineNum = 26;BA.debugLine="End Sub";
+ //BA.debugLineNum = 21;BA.debugLine="Sub Globals";
+ //BA.debugLineNum = 25;BA.debugLine="End Sub";
 return RemoteObject.createImmutable("");
 }
 
@@ -141,33 +137,35 @@ public static void initializeProcessGlobals() {
 	    main.processGlobalsRun = true;
 		try {
 		        main_subs_0._process_globals();
-starter_subs_0._process_globals();
-modulhomepage_subs_0._process_globals();
-modulloginalat_subs_0._process_globals();
-modulgambar_subs_0._process_globals();
-modulalat01_subs_0._process_globals();
 modulloginadmin_subs_0._process_globals();
-modulkoneksi_subs_0._process_globals();
 moduldashboard_subs_0._process_globals();
+moduldataalat_subs_0._process_globals();
+modultambahalat_subs_0._process_globals();
+modulkoneksi_subs_0._process_globals();
+modulloginalat_subs_0._process_globals();
+modulalat01_subs_0._process_globals();
+modulgambar_subs_0._process_globals();
+starter_subs_0._process_globals();
 main.myClass = BA.getDeviceClass ("b4a.example.main");
-starter.myClass = BA.getDeviceClass ("b4a.example.starter");
-modulhomepage.myClass = BA.getDeviceClass ("b4a.example.modulhomepage");
-modulloginalat.myClass = BA.getDeviceClass ("b4a.example.modulloginalat");
-modulgambar.myClass = BA.getDeviceClass ("b4a.example.modulgambar");
-modulalat01.myClass = BA.getDeviceClass ("b4a.example.modulalat01");
 modulloginadmin.myClass = BA.getDeviceClass ("b4a.example.modulloginadmin");
-modulkoneksi.myClass = BA.getDeviceClass ("b4a.example.modulkoneksi");
 moduldashboard.myClass = BA.getDeviceClass ("b4a.example.moduldashboard");
+moduldataalat.myClass = BA.getDeviceClass ("b4a.example.moduldataalat");
+modultambahalat.myClass = BA.getDeviceClass ("b4a.example.modultambahalat");
+modulkoneksi.myClass = BA.getDeviceClass ("b4a.example.modulkoneksi");
+modulloginalat.myClass = BA.getDeviceClass ("b4a.example.modulloginalat");
+modulalat01.myClass = BA.getDeviceClass ("b4a.example.modulalat01");
+modulgambar.myClass = BA.getDeviceClass ("b4a.example.modulgambar");
+starter.myClass = BA.getDeviceClass ("b4a.example.starter");
 		
         } catch (Exception e) {
 			throw new RuntimeException(e);
 		}
     }
 }public static RemoteObject  _process_globals() throws Exception{
- //BA.debugLineNum = 16;BA.debugLine="Sub Process_Globals";
- //BA.debugLineNum = 19;BA.debugLine="Private xui As XUI";
+ //BA.debugLineNum = 15;BA.debugLine="Sub Process_Globals";
+ //BA.debugLineNum = 18;BA.debugLine="Private xui As XUI";
 main._xui = RemoteObject.createNew ("anywheresoftware.b4a.objects.B4XViewWrapper.XUI");
- //BA.debugLineNum = 20;BA.debugLine="End Sub";
+ //BA.debugLineNum = 19;BA.debugLine="End Sub";
 return RemoteObject.createImmutable("");
 }
 }

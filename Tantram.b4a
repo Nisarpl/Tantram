@@ -1,18 +1,19 @@
 ﻿Build1=Default,b4a.example
 File1=Alat01.bal
 File10=Scrollview.bal
-File11=tim1.png
-File12=tim10.png
-File13=tim11.png
-File14=tim2.png
-File15=tim3.png
-File16=tim4.png
-File17=tim5.png
-File18=tim6.png
-File19=tim7.png
+File11=tambahalat.bal
+File12=tim1.png
+File13=tim10.png
+File14=tim11.png
+File15=tim2.png
+File16=tim3.png
+File17=tim4.png
+File18=tim5.png
+File19=tim6.png
 File2=DasboardAdmin.bal
-File20=tim8.png
-File21=tim9.png
+File20=tim7.png
+File21=tim8.png
+File22=tim9.png
 File3=DataAlat.bal
 File4=EditAlat.bal
 File5=Gambar.bal
@@ -22,7 +23,7 @@ File8=LoginAlat.bal
 File9=logo.png
 FileGroup1=Layout Group\Alat
 FileGroup10=Layout Group\Alat
-FileGroup11=Images Group\Slidder
+FileGroup11=Layout Group\Admin
 FileGroup12=Images Group\Slidder
 FileGroup13=Images Group\Slidder
 FileGroup14=Images Group\Slidder
@@ -34,6 +35,7 @@ FileGroup19=Images Group\Slidder
 FileGroup2=Layout Group\Admin
 FileGroup20=Images Group\Slidder
 FileGroup21=Images Group\Slidder
+FileGroup22=Images Group\Slidder
 FileGroup3=Layout Group\Admin
 FileGroup4=Layout Group\Admin
 FileGroup5=Layout Group\Alat
@@ -48,18 +50,18 @@ Library3=mysql
 ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="30"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
 Module1=ModulAlat01
 Module2=ModulDashboard
-Module3=ModulGambar
-Module4=ModulHomePage
+Module3=|relative|..\ModulDataAlat
+Module4=ModulGambar
 Module5=ModulKoneksi
 Module6=ModulLoginAdmin
 Module7=ModulLoginAlat
-Module8=Starter
-NumberOfFiles=21
+Module8=|relative|..\Modultambahalat
+Module9=Starter
+NumberOfFiles=22
 NumberOfLibraries=3
-NumberOfModules=8
+NumberOfModules=9
 Version=11.8
 @EndOfDesignText@
-
 #Region  Project Attributes 
 	#ApplicationLabel: Tantram
 	#VersionCode: 1
@@ -82,10 +84,11 @@ End Sub
 
 Sub Globals
 	'These global variables will be redeclared each time the activity is created.
-	Private btnAlat As Button
-	Private btnAdmin As Button
+'	Private btnAlat As Button
+'	Private btnAdmin As Button
 End Sub
 
+'Default Function
 Sub Activity_Create(FirstTime As Boolean)
 	Activity.LoadLayout("HomePage")
 End Sub

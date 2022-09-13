@@ -11,13 +11,13 @@ import anywheresoftware.b4a.pc.Debug;
 import anywheresoftware.b4a.pc.B4XTypes.B4XClass;
 import anywheresoftware.b4a.pc.B4XTypes.DeviceClass;
 
-public class modulhomepage implements IRemote{
-	public static modulhomepage mostCurrent;
+public class modultambahalat implements IRemote{
+	public static modultambahalat mostCurrent;
 	public static RemoteObject processBA;
     public static boolean processGlobalsRun;
     public static RemoteObject myClass;
     public static RemoteObject remoteMe;
-	public modulhomepage() {
+	public modultambahalat() {
 		mostCurrent = this;
 	}
     public RemoteObject getRemoteMe() {
@@ -30,7 +30,7 @@ public class modulhomepage implements IRemote{
 
 	}
     static {
-        anywheresoftware.b4a.pc.RapidSub.moduleToObject.put(new B4XClass("modulhomepage"), "b4a.example.modulhomepage");
+        anywheresoftware.b4a.pc.RapidSub.moduleToObject.put(new B4XClass("modultambahalat"), "b4a.example.modultambahalat");
 	}
 
 public boolean isSingleton() {
@@ -50,20 +50,21 @@ public boolean isSingleton() {
 		_activity = (RemoteObject) args[3];
         anywheresoftware.b4a.keywords.Common.Density = (Float)args[4];
         remoteMe = (RemoteObject) args[5];
-		pcBA = new PCBA(this, modulhomepage.class);
+		pcBA = new PCBA(this, modultambahalat.class);
         main_subs_0.initializeProcessGlobals();
 		return pcBA;
 	}
 public static RemoteObject __c = RemoteObject.declareNull("anywheresoftware.b4a.keywords.Common");
 public static b4a.example.main _main = null;
-public static b4a.example.starter _starter = null;
-public static b4a.example.modulloginalat _modulloginalat = null;
-public static b4a.example.modulgambar _modulgambar = null;
-public static b4a.example.modulalat01 _modulalat01 = null;
 public static b4a.example.modulloginadmin _modulloginadmin = null;
-public static b4a.example.modulkoneksi _modulkoneksi = null;
 public static b4a.example.moduldashboard _moduldashboard = null;
+public static b4a.example.moduldataalat _moduldataalat = null;
+public static b4a.example.modulkoneksi _modulkoneksi = null;
+public static b4a.example.modulloginalat _modulloginalat = null;
+public static b4a.example.modulalat01 _modulalat01 = null;
+public static b4a.example.modulgambar _modulgambar = null;
+public static b4a.example.starter _starter = null;
   public Object[] GetGlobals() {
-		return new Object[] {"Activity",modulhomepage.mostCurrent._activity,"Main",Debug.moduleToString(b4a.example.main.class),"ModulAlat01",Debug.moduleToString(b4a.example.modulalat01.class),"ModulDashboard",Debug.moduleToString(b4a.example.moduldashboard.class),"ModulGambar",Debug.moduleToString(b4a.example.modulgambar.class),"ModulKoneksi",Debug.moduleToString(b4a.example.modulkoneksi.class),"ModulLoginAdmin",Debug.moduleToString(b4a.example.modulloginadmin.class),"ModulLoginAlat",Debug.moduleToString(b4a.example.modulloginalat.class),"Starter",Debug.moduleToString(b4a.example.starter.class)};
+		return new Object[] {"Activity",modultambahalat.mostCurrent._activity,"Main",Debug.moduleToString(b4a.example.main.class),"ModulAlat01",Debug.moduleToString(b4a.example.modulalat01.class),"ModulDashboard",Debug.moduleToString(b4a.example.moduldashboard.class),"ModulDataAlat",Debug.moduleToString(b4a.example.moduldataalat.class),"ModulGambar",Debug.moduleToString(b4a.example.modulgambar.class),"ModulKoneksi",Debug.moduleToString(b4a.example.modulkoneksi.class),"ModulLoginAdmin",Debug.moduleToString(b4a.example.modulloginadmin.class),"ModulLoginAlat",Debug.moduleToString(b4a.example.modulloginalat.class),"Starter",Debug.moduleToString(b4a.example.starter.class)};
 }
 }
