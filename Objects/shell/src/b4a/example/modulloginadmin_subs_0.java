@@ -8,7 +8,11 @@ public class modulloginadmin_subs_0 {
 
 public static RemoteObject  _activity_create(RemoteObject _firsttime) throws Exception{
 try {
+<<<<<<< HEAD
 		Debug.PushSubsStack("Activity_Create (modulloginadmin) ","modulloginadmin",1,modulloginadmin.mostCurrent.activityBA,modulloginadmin.mostCurrent,20);
+=======
+		Debug.PushSubsStack("Activity_Create (modulloginadmin) ","modulloginadmin",2,modulloginadmin.mostCurrent.activityBA,modulloginadmin.mostCurrent,21);
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 if (RapidSub.canDelegate("activity_create")) { return b4a.example.modulloginadmin.remoteMe.runUserSub(false, "modulloginadmin","activity_create", _firsttime);}
 Debug.locals.put("FirstTime", _firsttime);
  BA.debugLineNum = 20;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
@@ -28,7 +32,11 @@ finally {
 		}}
 public static RemoteObject  _activity_pause(RemoteObject _userclosed) throws Exception{
 try {
+<<<<<<< HEAD
 		Debug.PushSubsStack("Activity_Pause (modulloginadmin) ","modulloginadmin",1,modulloginadmin.mostCurrent.activityBA,modulloginadmin.mostCurrent,30);
+=======
+		Debug.PushSubsStack("Activity_Pause (modulloginadmin) ","modulloginadmin",2,modulloginadmin.mostCurrent.activityBA,modulloginadmin.mostCurrent,31);
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 if (RapidSub.canDelegate("activity_pause")) { return b4a.example.modulloginadmin.remoteMe.runUserSub(false, "modulloginadmin","activity_pause", _userclosed);}
 Debug.locals.put("UserClosed", _userclosed);
  BA.debugLineNum = 30;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
@@ -45,7 +53,11 @@ finally {
 		}}
 public static RemoteObject  _activity_resume() throws Exception{
 try {
+<<<<<<< HEAD
 		Debug.PushSubsStack("Activity_Resume (modulloginadmin) ","modulloginadmin",1,modulloginadmin.mostCurrent.activityBA,modulloginadmin.mostCurrent,26);
+=======
+		Debug.PushSubsStack("Activity_Resume (modulloginadmin) ","modulloginadmin",2,modulloginadmin.mostCurrent.activityBA,modulloginadmin.mostCurrent,27);
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 if (RapidSub.canDelegate("activity_resume")) { return b4a.example.modulloginadmin.remoteMe.runUserSub(false, "modulloginadmin","activity_resume");}
  BA.debugLineNum = 26;BA.debugLine="Sub Activity_Resume";
 Debug.ShouldStop(33554432);
@@ -61,7 +73,11 @@ finally {
 		}}
 public static RemoteObject  _btnlogin_click() throws Exception{
 try {
+<<<<<<< HEAD
 		Debug.PushSubsStack("BtnLogin_Click (modulloginadmin) ","modulloginadmin",1,modulloginadmin.mostCurrent.activityBA,modulloginadmin.mostCurrent,35);
+=======
+		Debug.PushSubsStack("BtnLogin_Click (modulloginadmin) ","modulloginadmin",2,modulloginadmin.mostCurrent.activityBA,modulloginadmin.mostCurrent,36);
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 if (RapidSub.canDelegate("btnlogin_click")) { return b4a.example.modulloginadmin.remoteMe.runUserSub(false, "modulloginadmin","btnlogin_click");}
  BA.debugLineNum = 35;BA.debugLine="Private Sub BtnLogin_Click";
 Debug.ShouldStop(4);

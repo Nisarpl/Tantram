@@ -58,6 +58,7 @@ public static RemoteObject __c = RemoteObject.declareNull("anywheresoftware.b4a.
 public static RemoteObject _edtusername = RemoteObject.declareNull("anywheresoftware.b4a.objects.EditTextWrapper");
 public static RemoteObject _edtpassword = RemoteObject.declareNull("anywheresoftware.b4a.objects.EditTextWrapper");
 public static b4a.example.main _main = null;
+<<<<<<< HEAD
 public static b4a.example.moduldashboard _moduldashboard = null;
 public static b4a.example.moduldataalat _moduldataalat = null;
 public static b4a.example.modultambahalat _modultambahalat = null;
@@ -68,5 +69,18 @@ public static b4a.example.modulgambar _modulgambar = null;
 public static b4a.example.starter _starter = null;
   public Object[] GetGlobals() {
 		return new Object[] {"Activity",modulloginadmin.mostCurrent._activity,"edtPassword",modulloginadmin.mostCurrent._edtpassword,"edtUsername",modulloginadmin.mostCurrent._edtusername,"Main",Debug.moduleToString(b4a.example.main.class),"ModulAlat01",Debug.moduleToString(b4a.example.modulalat01.class),"ModulDashboard",Debug.moduleToString(b4a.example.moduldashboard.class),"ModulDataAlat",Debug.moduleToString(b4a.example.moduldataalat.class),"ModulGambar",Debug.moduleToString(b4a.example.modulgambar.class),"ModulKoneksi",Debug.moduleToString(b4a.example.modulkoneksi.class),"ModulLoginAlat",Debug.moduleToString(b4a.example.modulloginalat.class),"Modultambahalat",Debug.moduleToString(b4a.example.modultambahalat.class),"Starter",Debug.moduleToString(b4a.example.starter.class)};
+=======
+public static b4a.example.modulhomepage _modulhomepage = null;
+public static b4a.example.moduldashboard _moduldashboard = null;
+public static b4a.example.modulkoneksi _modulkoneksi = null;
+public static b4a.example.modulalat01 _modulalat01 = null;
+public static b4a.example.modulloginalat _modulloginalat = null;
+public static b4a.example.modullaporanbulananalat _modullaporanbulananalat = null;
+public static b4a.example.modulgambar _modulgambar = null;
+public static b4a.example.modullaporanbulanan _modullaporanbulanan = null;
+public static b4a.example.starter _starter = null;
+  public Object[] GetGlobals() {
+		return new Object[] {"Activity",modulloginadmin.mostCurrent._activity,"edtPassword",modulloginadmin.mostCurrent._edtpassword,"edtUsername",modulloginadmin.mostCurrent._edtusername,"Main",Debug.moduleToString(b4a.example.main.class),"ModulAlat01",Debug.moduleToString(b4a.example.modulalat01.class),"ModulDashboard",Debug.moduleToString(b4a.example.moduldashboard.class),"ModulGambar",Debug.moduleToString(b4a.example.modulgambar.class),"ModulHomePage",Debug.moduleToString(b4a.example.modulhomepage.class),"ModulKoneksi",Debug.moduleToString(b4a.example.modulkoneksi.class),"ModulLaporanBulanan",Debug.moduleToString(b4a.example.modullaporanbulanan.class),"ModulLaporanBulananAlat",Debug.moduleToString(b4a.example.modullaporanbulananalat.class),"ModulLoginAlat",Debug.moduleToString(b4a.example.modulloginalat.class),"Starter",Debug.moduleToString(b4a.example.starter.class)};
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 }
 }

@@ -33,6 +33,17 @@
 		<activity
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
+<<<<<<< HEAD
+=======
+			android:name=".modulhomepage"
+			android:label="Tantram"
+			android:screenOrientation="unspecified"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 			android:name=".modulloginadmin"
 			android:label="Tantram"
 			android:screenOrientation="unspecified"
@@ -49,6 +60,7 @@
 		<activity
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
+<<<<<<< HEAD
 			android:name=".moduldataalat"
 			android:label="Tantram"
 			android:screenOrientation="unspecified"
@@ -58,6 +70,9 @@
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
 			android:name=".modultambahalat"
+=======
+			android:name=".modulalat01"
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 			android:label="Tantram"
 			android:screenOrientation="unspecified"
 			android:exported="true">
@@ -73,7 +88,11 @@
 		<activity
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
+<<<<<<< HEAD
 			android:name=".modulalat01"
+=======
+			android:name=".modullaporanbulananalat"
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 			android:label="Tantram"
 			android:screenOrientation="unspecified"
 			android:exported="true">
@@ -86,6 +105,17 @@
 			android:screenOrientation="unspecified"
 			android:exported="true">
 		</activity>
+<<<<<<< HEAD
+=======
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".modullaporanbulanan"
+			android:label="Tantram"
+			android:screenOrientation="unspecified"
+			android:exported="true">
+		</activity>
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 		<service
 			android:name=".starter"
 			android:exported="true">

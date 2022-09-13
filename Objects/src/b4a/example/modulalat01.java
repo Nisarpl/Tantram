@@ -347,6 +347,7 @@ public static void initializeProcessGlobals() {
 public anywheresoftware.b4a.keywords.Common __c = null;
 public anywheresoftware.b4a.objects.ScrollViewWrapper _scrollview1 = null;
 public b4a.example.main _main = null;
+<<<<<<< HEAD
 public b4a.example.modulloginadmin _modulloginadmin = null;
 public b4a.example.moduldashboard _moduldashboard = null;
 public b4a.example.moduldataalat _moduldataalat = null;
@@ -354,11 +355,22 @@ public b4a.example.modultambahalat _modultambahalat = null;
 public b4a.example.modulkoneksi _modulkoneksi = null;
 public b4a.example.modulloginalat _modulloginalat = null;
 public b4a.example.modulgambar _modulgambar = null;
+=======
+public b4a.example.modulhomepage _modulhomepage = null;
+public b4a.example.modulloginadmin _modulloginadmin = null;
+public b4a.example.moduldashboard _moduldashboard = null;
+public b4a.example.modulkoneksi _modulkoneksi = null;
+public b4a.example.modulloginalat _modulloginalat = null;
+public b4a.example.modullaporanbulananalat _modullaporanbulananalat = null;
+public b4a.example.modulgambar _modulgambar = null;
+public b4a.example.modullaporanbulanan _modullaporanbulanan = null;
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 public b4a.example.starter _starter = null;
 public static String  _activity_create(boolean _firsttime) throws Exception{
 RDebugUtils.currentModule="modulalat01";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_create", new Object[] {_firsttime}));}
+<<<<<<< HEAD
 RDebugUtils.currentLine=2555904;
  //BA.debugLineNum = 2555904;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
 RDebugUtils.currentLine=2555906;
@@ -375,24 +387,59 @@ RDebugUtils.currentLine=2555910;
 mostCurrent._scrollview1.getPanel().setHeight(anywheresoftware.b4a.keywords.Common.DipToCurrent((int) (1790)));
 RDebugUtils.currentLine=2555912;
  //BA.debugLineNum = 2555912;BA.debugLine="End Sub";
+=======
+RDebugUtils.currentLine=1835008;
+ //BA.debugLineNum = 1835008;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
+RDebugUtils.currentLine=1835010;
+ //BA.debugLineNum = 1835010;BA.debugLine="Activity.LoadLayout(\"Alat01\")";
+mostCurrent._activity.LoadLayout("Alat01",mostCurrent.activityBA);
+RDebugUtils.currentLine=1835011;
+ //BA.debugLineNum = 1835011;BA.debugLine="Activity.LoadLayout(\"Scrollview\")";
+mostCurrent._activity.LoadLayout("Scrollview",mostCurrent.activityBA);
+RDebugUtils.currentLine=1835013;
+ //BA.debugLineNum = 1835013;BA.debugLine="ScrollView1.Panel.LoadLayout(\"Alat01\")";
+mostCurrent._scrollview1.getPanel().LoadLayout("Alat01",mostCurrent.activityBA);
+RDebugUtils.currentLine=1835014;
+ //BA.debugLineNum = 1835014;BA.debugLine="ScrollView1.Panel.Width=320dip";
+mostCurrent._scrollview1.getPanel().setWidth(anywheresoftware.b4a.keywords.Common.DipToCurrent((int) (320)));
+RDebugUtils.currentLine=1835015;
+ //BA.debugLineNum = 1835015;BA.debugLine="ScrollView1.Panel.Height=1790dip";
+mostCurrent._scrollview1.getPanel().setHeight(anywheresoftware.b4a.keywords.Common.DipToCurrent((int) (1790)));
+RDebugUtils.currentLine=1835017;
+ //BA.debugLineNum = 1835017;BA.debugLine="End Sub";
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 return "";
 }
 public static String  _activity_pause(boolean _userclosed) throws Exception{
 RDebugUtils.currentModule="modulalat01";
+<<<<<<< HEAD
 RDebugUtils.currentLine=2686976;
  //BA.debugLineNum = 2686976;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
 RDebugUtils.currentLine=2686978;
  //BA.debugLineNum = 2686978;BA.debugLine="End Sub";
+=======
+RDebugUtils.currentLine=1966080;
+ //BA.debugLineNum = 1966080;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
+RDebugUtils.currentLine=1966082;
+ //BA.debugLineNum = 1966082;BA.debugLine="End Sub";
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 return "";
 }
 public static String  _activity_resume() throws Exception{
 RDebugUtils.currentModule="modulalat01";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_resume", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_resume", null));}
+<<<<<<< HEAD
 RDebugUtils.currentLine=2621440;
  //BA.debugLineNum = 2621440;BA.debugLine="Sub Activity_Resume";
 RDebugUtils.currentLine=2621442;
  //BA.debugLineNum = 2621442;BA.debugLine="End Sub";
+=======
+RDebugUtils.currentLine=1900544;
+ //BA.debugLineNum = 1900544;BA.debugLine="Sub Activity_Resume";
+RDebugUtils.currentLine=1900546;
+ //BA.debugLineNum = 1900546;BA.debugLine="End Sub";
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 return "";
 }
 }

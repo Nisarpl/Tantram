@@ -348,16 +348,26 @@ public anywheresoftware.b4a.keywords.Common __c = null;
 public b4a.example.main _main = null;
 public b4a.example.modulloginadmin _modulloginadmin = null;
 public b4a.example.moduldashboard _moduldashboard = null;
+<<<<<<< HEAD:Objects/src/b4a/example/moduldataalat.java
 public b4a.example.modultambahalat _modultambahalat = null;
 public b4a.example.modulkoneksi _modulkoneksi = null;
 public b4a.example.modulloginalat _modulloginalat = null;
 public b4a.example.modulalat01 _modulalat01 = null;
 public b4a.example.modulgambar _modulgambar = null;
+=======
+public b4a.example.modulkoneksi _modulkoneksi = null;
+public b4a.example.modulalat01 _modulalat01 = null;
+public b4a.example.modulloginalat _modulloginalat = null;
+public b4a.example.modullaporanbulananalat _modullaporanbulananalat = null;
+public b4a.example.modulgambar _modulgambar = null;
+public b4a.example.modullaporanbulanan _modullaporanbulanan = null;
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f:Objects/src/b4a/example/modulhomepage.java
 public b4a.example.starter _starter = null;
 public static String  _activity_create(boolean _firsttime) throws Exception{
 RDebugUtils.currentModule="moduldataalat";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_create", new Object[] {_firsttime}));}
+<<<<<<< HEAD:Objects/src/b4a/example/moduldataalat.java
 RDebugUtils.currentLine=1376256;
  //BA.debugLineNum = 1376256;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
 RDebugUtils.currentLine=1376260;
@@ -370,16 +380,75 @@ RDebugUtils.currentLine=1507328;
  //BA.debugLineNum = 1507328;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
 RDebugUtils.currentLine=1507330;
  //BA.debugLineNum = 1507330;BA.debugLine="End Sub";
+=======
+RDebugUtils.currentLine=458752;
+ //BA.debugLineNum = 458752;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
+RDebugUtils.currentLine=458754;
+ //BA.debugLineNum = 458754;BA.debugLine="Activity.LoadLayout(\"HomePage\")";
+mostCurrent._activity.LoadLayout("HomePage",mostCurrent.activityBA);
+RDebugUtils.currentLine=458755;
+ //BA.debugLineNum = 458755;BA.debugLine="ModulKoneksi.koneksi";
+mostCurrent._modulkoneksi._koneksi /*String*/ (mostCurrent.activityBA);
+RDebugUtils.currentLine=458756;
+ //BA.debugLineNum = 458756;BA.debugLine="End Sub";
+return "";
+}
+public static String  _activity_pause(boolean _userclosed) throws Exception{
+RDebugUtils.currentModule="modulhomepage";
+RDebugUtils.currentLine=589824;
+ //BA.debugLineNum = 589824;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
+RDebugUtils.currentLine=589826;
+ //BA.debugLineNum = 589826;BA.debugLine="End Sub";
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f:Objects/src/b4a/example/modulhomepage.java
 return "";
 }
 public static String  _activity_resume() throws Exception{
 RDebugUtils.currentModule="moduldataalat";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_resume", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_resume", null));}
+<<<<<<< HEAD:Objects/src/b4a/example/moduldataalat.java
 RDebugUtils.currentLine=1441792;
  //BA.debugLineNum = 1441792;BA.debugLine="Sub Activity_Resume";
 RDebugUtils.currentLine=1441794;
  //BA.debugLineNum = 1441794;BA.debugLine="End Sub";
+=======
+RDebugUtils.currentLine=524288;
+ //BA.debugLineNum = 524288;BA.debugLine="Sub Activity_Resume";
+RDebugUtils.currentLine=524290;
+ //BA.debugLineNum = 524290;BA.debugLine="End Sub";
+return "";
+}
+public static String  _btnadmin_click() throws Exception{
+RDebugUtils.currentModule="modulhomepage";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "btnadmin_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "btnadmin_click", null));}
+RDebugUtils.currentLine=655360;
+ //BA.debugLineNum = 655360;BA.debugLine="Private Sub BtnAdmin_Click";
+RDebugUtils.currentLine=655361;
+ //BA.debugLineNum = 655361;BA.debugLine="Activity.Finish";
+mostCurrent._activity.Finish();
+RDebugUtils.currentLine=655362;
+ //BA.debugLineNum = 655362;BA.debugLine="StartActivity(ModulLoginAdmin)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._modulloginadmin.getObject()));
+RDebugUtils.currentLine=655363;
+ //BA.debugLineNum = 655363;BA.debugLine="End Sub";
+return "";
+}
+public static String  _btnalat_click() throws Exception{
+RDebugUtils.currentModule="modulhomepage";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "btnalat_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "btnalat_click", null));}
+RDebugUtils.currentLine=720896;
+ //BA.debugLineNum = 720896;BA.debugLine="Private Sub btnAlat_Click";
+RDebugUtils.currentLine=720897;
+ //BA.debugLineNum = 720897;BA.debugLine="Activity.Finish";
+mostCurrent._activity.Finish();
+RDebugUtils.currentLine=720898;
+ //BA.debugLineNum = 720898;BA.debugLine="StartActivity(ModulLoginAlat)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._modulloginalat.getObject()));
+RDebugUtils.currentLine=720899;
+ //BA.debugLineNum = 720899;BA.debugLine="End Sub";
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f:Objects/src/b4a/example/modulhomepage.java
 return "";
 }
 }

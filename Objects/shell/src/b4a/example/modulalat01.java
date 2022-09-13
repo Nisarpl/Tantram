@@ -57,6 +57,7 @@ public boolean isSingleton() {
 public static RemoteObject __c = RemoteObject.declareNull("anywheresoftware.b4a.keywords.Common");
 public static RemoteObject _scrollview1 = RemoteObject.declareNull("anywheresoftware.b4a.objects.ScrollViewWrapper");
 public static b4a.example.main _main = null;
+<<<<<<< HEAD
 public static b4a.example.modulloginadmin _modulloginadmin = null;
 public static b4a.example.moduldashboard _moduldashboard = null;
 public static b4a.example.moduldataalat _moduldataalat = null;
@@ -67,5 +68,18 @@ public static b4a.example.modulgambar _modulgambar = null;
 public static b4a.example.starter _starter = null;
   public Object[] GetGlobals() {
 		return new Object[] {"Activity",modulalat01.mostCurrent._activity,"Main",Debug.moduleToString(b4a.example.main.class),"ModulDashboard",Debug.moduleToString(b4a.example.moduldashboard.class),"ModulDataAlat",Debug.moduleToString(b4a.example.moduldataalat.class),"ModulGambar",Debug.moduleToString(b4a.example.modulgambar.class),"ModulKoneksi",Debug.moduleToString(b4a.example.modulkoneksi.class),"ModulLoginAdmin",Debug.moduleToString(b4a.example.modulloginadmin.class),"ModulLoginAlat",Debug.moduleToString(b4a.example.modulloginalat.class),"Modultambahalat",Debug.moduleToString(b4a.example.modultambahalat.class),"ScrollView1",modulalat01.mostCurrent._scrollview1,"Starter",Debug.moduleToString(b4a.example.starter.class)};
+=======
+public static b4a.example.modulhomepage _modulhomepage = null;
+public static b4a.example.modulloginadmin _modulloginadmin = null;
+public static b4a.example.moduldashboard _moduldashboard = null;
+public static b4a.example.modulkoneksi _modulkoneksi = null;
+public static b4a.example.modulloginalat _modulloginalat = null;
+public static b4a.example.modullaporanbulananalat _modullaporanbulananalat = null;
+public static b4a.example.modulgambar _modulgambar = null;
+public static b4a.example.modullaporanbulanan _modullaporanbulanan = null;
+public static b4a.example.starter _starter = null;
+  public Object[] GetGlobals() {
+		return new Object[] {"Activity",modulalat01.mostCurrent._activity,"Main",Debug.moduleToString(b4a.example.main.class),"ModulDashboard",Debug.moduleToString(b4a.example.moduldashboard.class),"ModulGambar",Debug.moduleToString(b4a.example.modulgambar.class),"ModulHomePage",Debug.moduleToString(b4a.example.modulhomepage.class),"ModulKoneksi",Debug.moduleToString(b4a.example.modulkoneksi.class),"ModulLaporanBulanan",Debug.moduleToString(b4a.example.modullaporanbulanan.class),"ModulLaporanBulananAlat",Debug.moduleToString(b4a.example.modullaporanbulananalat.class),"ModulLoginAdmin",Debug.moduleToString(b4a.example.modulloginadmin.class),"ModulLoginAlat",Debug.moduleToString(b4a.example.modulloginalat.class),"ScrollView1",modulalat01.mostCurrent._scrollview1,"Starter",Debug.moduleToString(b4a.example.starter.class)};
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 }
 }

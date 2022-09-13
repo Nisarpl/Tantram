@@ -28,6 +28,6 @@ ModuleClosedNodes6=
 ModuleClosedNodes7=
 ModuleClosedNodes8=
 ModuleClosedNodes9=
-NavigationStack=ModulLoginAlat,btnMasuk_Click,39,0,Visual Designer,tambahalat.bal,-100,2,Visual Designer,LoginAlat.bal,-100,3,ModulLoginAlat,Process_Globals,10,0,ModulLoginAlat,Activity_Create,23,0,Visual Designer,EditAlat.bal,-100,4,ModulLoginAlat,Globals,16,0,ModulLoginAdmin,Globals,14,0,Visual Designer,DataAlat.bal,-100,6,ModulLoginAdmin,BtnLogin_Click,36,0
+NavigationStack=Visual Designer,LoginAlat.bal,-100,3,ModulLoginAlat,Process_Globals,10,0,ModulLoginAlat,Activity_Create,23,0,Visual Designer,EditAlat.bal,-100,4,ModulLoginAlat,Globals,16,0,ModulLoginAdmin,Globals,14,0,Visual Designer,Alat01.bal,-100,1,Visual Designer,DataAlat.bal,-100,6,ModulLoginAdmin,Activity_Pause,32,0,ModulLoginAdmin,BtnLogin_Click,36,0
 SelectedBuild=0
 VisibleModules=6,2,3,8,5,7

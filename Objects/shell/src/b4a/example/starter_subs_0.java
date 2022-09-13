@@ -8,7 +8,11 @@ public class starter_subs_0 {
 
 public static RemoteObject  _application_error(RemoteObject _error,RemoteObject _stacktrace) throws Exception{
 try {
+<<<<<<< HEAD
 		Debug.PushSubsStack("Application_Error (starter) ","starter",9,starter.processBA,starter.mostCurrent,27);
+=======
+		Debug.PushSubsStack("Application_Error (starter) ","starter",10,starter.processBA,starter.mostCurrent,27);
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 if (RapidSub.canDelegate("application_error")) { return b4a.example.starter.remoteMe.runUserSub(false, "starter","application_error", _error, _stacktrace);}
 Debug.locals.put("Error", _error);
 Debug.locals.put("StackTrace", _stacktrace);
@@ -34,7 +38,11 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _service_create() throws Exception{
 try {
+<<<<<<< HEAD
 		Debug.PushSubsStack("Service_Create (starter) ","starter",9,starter.processBA,starter.mostCurrent,12);
+=======
+		Debug.PushSubsStack("Service_Create (starter) ","starter",10,starter.processBA,starter.mostCurrent,12);
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 if (RapidSub.canDelegate("service_create")) { return b4a.example.starter.remoteMe.runUserSub(false, "starter","service_create");}
  BA.debugLineNum = 12;BA.debugLine="Sub Service_Create";
 Debug.ShouldStop(2048);
@@ -50,7 +58,11 @@ finally {
 		}}
 public static RemoteObject  _service_destroy() throws Exception{
 try {
+<<<<<<< HEAD
 		Debug.PushSubsStack("Service_Destroy (starter) ","starter",9,starter.processBA,starter.mostCurrent,31);
+=======
+		Debug.PushSubsStack("Service_Destroy (starter) ","starter",10,starter.processBA,starter.mostCurrent,31);
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 if (RapidSub.canDelegate("service_destroy")) { return b4a.example.starter.remoteMe.runUserSub(false, "starter","service_destroy");}
  BA.debugLineNum = 31;BA.debugLine="Sub Service_Destroy";
 Debug.ShouldStop(1073741824);
@@ -66,7 +78,11 @@ finally {
 		}}
 public static RemoteObject  _service_start(RemoteObject _startingintent) throws Exception{
 try {
+<<<<<<< HEAD
 		Debug.PushSubsStack("Service_Start (starter) ","starter",9,starter.processBA,starter.mostCurrent,18);
+=======
+		Debug.PushSubsStack("Service_Start (starter) ","starter",10,starter.processBA,starter.mostCurrent,18);
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 if (RapidSub.canDelegate("service_start")) { return b4a.example.starter.remoteMe.runUserSub(false, "starter","service_start", _startingintent);}
 Debug.locals.put("StartingIntent", _startingintent);
  BA.debugLineNum = 18;BA.debugLine="Sub Service_Start (StartingIntent As Intent)";
@@ -86,7 +102,11 @@ finally {
 		}}
 public static RemoteObject  _service_taskremoved() throws Exception{
 try {
+<<<<<<< HEAD
 		Debug.PushSubsStack("Service_TaskRemoved (starter) ","starter",9,starter.processBA,starter.mostCurrent,22);
+=======
+		Debug.PushSubsStack("Service_TaskRemoved (starter) ","starter",10,starter.processBA,starter.mostCurrent,22);
+>>>>>>> 9cbe68af9e81a97d1975c236ef46985b5c8e933f
 if (RapidSub.canDelegate("service_taskremoved")) { return b4a.example.starter.remoteMe.runUserSub(false, "starter","service_taskremoved");}
  BA.debugLineNum = 22;BA.debugLine="Sub Service_TaskRemoved";
 Debug.ShouldStop(2097152);
